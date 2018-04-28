@@ -1,0 +1,12 @@
+
+/*
+*
+*       This style file is for table printing output 
+*
+*/
+@media print {
+   thead {display: table-header-group;}
+   #portfolio {display: none;}
+   #footer {display: none;}
+   #mySidebar {display: none;}
+}
